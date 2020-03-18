@@ -98,7 +98,7 @@ public class Board extends Application {
 //        stage.show();
 
         loadPeople(Settings.NUMHEALTHY, Settings.NUMSICK, Settings.DISTANCING);
-
+ 
         Timeline timeline = new Timeline(new KeyFrame(Duration.millis(Settings.FRAMERATE), event -> {
             try {
                 takeSnapShot(scene);
@@ -111,7 +111,7 @@ public class Board extends Application {
                 person.advance();
             }
         }));
-        timeline.setCycleCount(4000);
+        timeline.setCycleCount(3000);
         timeline.play();
     }
 

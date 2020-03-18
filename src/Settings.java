@@ -6,5 +6,5 @@ public class Settings {
     public static int NUMHEALTHY = 499;
     public static int FRAMERATE = 40;
     public static double RADIUS = 6;
-    public static double DISTANCING = .4;
+    public static double DISTANCING = .6;
 }
